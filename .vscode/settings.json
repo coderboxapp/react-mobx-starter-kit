@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "prettier.printWidth": 120,
+  "standard.enable": true,
+  "javascript.validate.enable": false,
+  "standard.options": {
+    "globals": [
+      "$",
+      "jQuery",
+      "fbq",
+      "ga"
+    ],
+    "ignore": [
+      "node_modules/**"
+    ],
+    "parser": "babel-eslint"
+  }
+}
