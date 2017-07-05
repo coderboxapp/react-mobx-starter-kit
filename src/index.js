@@ -24,4 +24,4 @@ document.startApp = function (container) {
 }
 
 /** Start app */
-document.startApp(document.getElementById("app"));
+document.startApp(document.getElementById('app'))

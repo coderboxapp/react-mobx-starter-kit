@@ -4,9 +4,6 @@ class AppStore {
   @observable isFetching = false
   @observable loggedUser = null
   @observable data = []
-  @observable companies = []
-  @observable technologies = []
-  @observable titles = []
 
   @action test = async () => {
     this.isFetching = true
