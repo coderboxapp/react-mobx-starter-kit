@@ -5,7 +5,7 @@
 
 Boilerplate for a better React + Mobx Architecture. This is the architecture we use at [@Coderbox](https://www.coderbox.me). If you decided to try it or perhaps your just investigating a better option, good for you.
 
-The architecture is based on the [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) methodology.
+The architecture is based on the [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) methodology and [ARc](https://github.com/diegohaz/arc).
 
 # Table of Contents
 1. [Requirements](#requirements)
