@@ -33,6 +33,12 @@ To start in development
 $ npm start
 ```
 
+## Test
+
+```bash
+$ npm test
+```
+
 ## Application Structure
 
 In progress....

@@ -5,7 +5,7 @@ export const Dialog = styled.div`
   max-width: ${p => p.width || '400px'};
   margin: 20px auto;
   background-color: white;
-  border: 1px solid ${palette('grayscale', 1)};
+  border: 1px solid ${palette('grayscale', 2)};
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
   border-radius: ${size('radius')};
   text-align: center;
@@ -29,7 +29,7 @@ export const Content = styled.div`
 export const Footer = styled.div`
   font-size: 16px;
   padding: 20px 15px;
-  border-top: 1px solid ${palette('grayscale', 1)};
+  border-top: 1px solid ${palette('grayscale', 2)};
   background-color: ${palette('grayscale', 3)};
   border-radius: 0 0 ${size('radius')} ${size('radius')};
 `

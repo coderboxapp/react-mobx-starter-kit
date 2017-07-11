@@ -6,12 +6,8 @@
   "standard.enable": true,
   "javascript.validate.enable": false,
   "standard.options": {
-    "globals": [
-      "$",
-      "jQuery",
-      "fbq",
-      "ga"
-    ],
+    "globals": [],
+    "env": [ "jest" ],
     "ignore": [
       "node_modules/**"
     ],

@@ -1,15 +1,35 @@
 {
-	"presets": [
-		"es2015",
-		"react",
-		"stage-0"
-	],
-	"plugins": [
-		["transform-decorators-legacy"],
-		["transform-runtime"],
-		["module-resolver", {
-			"root": ["./src"],
-			"alias": {}
-		}]
-	]
+  "presets": [
+    [
+      "es2015",
+      {
+        "loose": true,
+        "modules": false
+      }
+    ],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-runtime",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {}
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-es2015-modules-commonjs",
+        "transform-decorators-legacy"
+      ]
+    }
+  }
 }

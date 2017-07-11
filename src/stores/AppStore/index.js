@@ -5,13 +5,11 @@ class AppStore {
   @observable loggedUser = null
   @observable data = []
 
-  @action test = async () => {
+  @action fetchInitialData = async () => {
     this.isFetching = true
+    console.log('load initial data')
+    // do asyng stuff
   }
-
-   @action fetchInitialData = () => {
-     console.log('load initial data')
-   }
 }
 
 let singleton = new AppStore()

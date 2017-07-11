@@ -1,6 +1,5 @@
-const req = require.context('.', true, /\.\/[^/]+\/index\.js$/)
+import App from './App'
 
-req.keys().forEach((key) => {
-  const componentName = key.replace(/^.+\/([^/]+)\/index\.js/, '$1')
-  module.exports[componentName] = req(key).default
-})
+export {
+  App
+}
